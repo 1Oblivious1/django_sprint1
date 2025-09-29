@@ -1,5 +1,5 @@
-from django.http import HttpResponse
 from django.shortcuts import render
+
 
 # Create your views here.
 def about(request):
@@ -7,4 +7,4 @@ def about(request):
 
 
 def rules(request):
-  return render(request, 'pages/rules.html')
+    return render(request, 'pages/rules.html')
